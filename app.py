@@ -11,7 +11,7 @@ from google import genai
 from google.genai import types
 from pypdf import PdfReader
 
-MODEL_NAME = os.getenv("GEMINI_MODEL", "gemini-2.5-flash")
+MODEL_NAME = os.getenv("GEMINI_MODEL", "gemini-3.8-flash")
 MAX_RESUME_CHARS = 20000
 
 PROMPT_TEMPLATE = """You are an expert ATS (Applicant Tracking System) analyst and career coach.
